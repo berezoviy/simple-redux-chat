@@ -1,0 +1,46 @@
+body {
+  color: rgb(51, 51, 51);
+}
+
+input {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+ol {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 0;
+}
+
+li {
+  margin-top: 18px;
+}
+
+.content {
+  max-width: 55em;
+  padding-left: 15em;
+}
+
+@media all and (max-width: 65em) {
+  .content {
+    font-size: 5.9vw;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media all and (min-width: 30em) and (max-width: 65em) {
+  .content {
+    font-size: 3vw;
+  }
+}
+
+.pure-button-primary {
+  background: rgb(28, 184, 65);
+}
+
+.message-name {
+  font-weight: bold;
+  margin-right: 22px;
+}
